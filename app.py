@@ -42,7 +42,7 @@ page_nav = {
 }
 
 # Runtime
-banner.banner(config.logo_path, pages)
+banner.banner(pages)
 runtime = st.navigation(
     page_nav,
     position=config.nav_bar_pos,
